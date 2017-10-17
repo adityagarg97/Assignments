@@ -1,3 +1,8 @@
+body{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(orange), to(white));
+    font-family: cursive;
+    font-size: 15px;
+}
 #pic{
     position:fixed;
     top:10px;
@@ -6,6 +11,7 @@
 }
 #form1{
     position:fixed;
+    left:300px;
     border: 1px solid black;
     padding:10px;
     margin:10px;
@@ -15,6 +21,12 @@ input{
     margin:10px;
 }
 span{
-    position: relative;
+    position:relative;
+    padding:10px;
     margin:10px;
+}
+button{
+    position: relative;
+    top:5px;
+    left:300px;
 }
